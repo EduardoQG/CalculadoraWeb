@@ -8,10 +8,6 @@ function displayValues(value){
 	storedDisplay=document.getElementById("display").value;
 }
 
-function clear(){
-	
-	document.getElementById("display").value=0;
-	storedDisplay="";
+function clearDisplay(){
+	$("#display").val("0");
 }
-
-
