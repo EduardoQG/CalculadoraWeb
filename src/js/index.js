@@ -11,7 +11,7 @@ function clearDisplay(){
 	acumuado=0;
 }
 
-let acumulado;
+let acumulado=0;
 
 function sum(){
    
