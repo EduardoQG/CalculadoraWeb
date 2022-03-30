@@ -10,7 +10,7 @@
 
 .col-3{
    
-    padding-top:30px;
+    padding-top:27px;
 
 }
 
@@ -18,7 +18,7 @@
     position:absolute;
     top: 35px; left:34%;
     width:28%;
-    height: 500px;
+    height: 515px;
     border:6px solid grey !important;
     border-radius:5%;
     background-color: blueviolet;

@@ -26,11 +26,11 @@ function result(){
 
 	negativeNumberCheck=true;
 
-	if(sumCheck){$("#display").val(parseInt(acumulado)+parseInt($("#display").val()));}
-    if(restCheck){ $("#display").val(parseInt(acumulado)-parseInt($("#display").val()));
+	if(sumCheck){$("#display").val(parseFloat(acumulado)+parseFloat($("#display").val()));}
+    if(restCheck){ $("#display").val(parseFloat(acumulado)-parseFloat($("#display").val()));
 	}
-	if(multCheck){$("#display").val(parseInt(acumulado)*parseInt($("#display").val()));}
-    if(divisionCheck){$("#display").val(parseInt(acumulado)/parseInt($("#display").val()));}
+	if(multCheck){$("#display").val(parseFloat(acumulado)*parseFloat($("#display").val()));}
+    if(divisionCheck){$("#display").val(parseFloat(acumulado)/parseFloat($("#display").val()));}
 
 	acumulado=$("#display").val();
 
@@ -39,11 +39,11 @@ function result(){
 
 function sum(){
    
-	if(sumCheck){acumulado=parseInt($("#display").val())+parseInt(acumulado);}
-	else if(restCheck){acumulado=parseInt(-1*(($("#display").val()))+parseInt(acumulado));}
-	else if(multCheck){acumulado=parseInt($("#display").val())*parseInt(acumulado);}
-	else if(divisionCheck){acumulado=parseInt(acumulado)/parseInt($("#display").val());}
-	else {acumulado=parseInt($("#display").val())}
+	if(sumCheck){acumulado=parseFloat($("#display").val())+parseFloat(acumulado);}
+	else if(restCheck){acumulado=parseFloat(-1*(($("#display").val()))+parseFloat(acumulado));}
+	else if(multCheck){acumulado=parseFloat($("#display").val())*parseFloat(acumulado);}
+	else if(divisionCheck){acumulado=parseFloat(acumulado)/parseFloat($("#display").val());}
+	else {acumulado=parseFloat($("#display").val())}
 
 	$("#display").val(0);
 	negativeNumberCheck=true;
@@ -58,11 +58,11 @@ function rest(){
 
 	} else{
 
-		if(sumCheck){acumulado=parseInt($("#display").val())+parseInt(acumulado);}
-		else if(restCheck){acumulado=parseInt(-1*(($("#display").val()))+parseInt(acumulado));}
-		else if(multCheck){acumulado=parseInt($("#display").val())*parseInt(acumulado);}
-		else if(divisionCheck){acumulado=parseInt(acumulado)/parseInt($("#display").val());}
-		else{acumulado=parseInt($("#display").val())}
+		if(sumCheck){acumulado=parseFloat($("#display").val())+parseFloat(acumulado);}
+		else if(restCheck){acumulado=parseFloat(-1*(($("#display").val()))+parseFloat(acumulado));}
+		else if(multCheck){acumulado=parseFloat($("#display").val())*parseFloat(acumulado);}
+		else if(divisionCheck){acumulado=parseFloat(acumulado)/parseFloat($("#display").val());}
+		else{acumulado=parseFloat($("#display").val())}
 
 	}
 	
@@ -74,11 +74,11 @@ function rest(){
 
 function multiplication(){
 
-	if(sumCheck){acumulado=parseInt($("#display").val())+parseInt(acumulado);}
-	else if(restCheck){acumulado=parseInt(-1*(($("#display").val()))+parseInt(acumulado));}
-	else if(multCheck){acumulado=parseInt($("#display").val())*parseInt(acumulado);}
-	else if(divisionCheck){acumulado=parseInt(acumulado)/parseInt($("#display").val());}
-	else{acumulado=parseInt($("#display").val())}
+	if(sumCheck){acumulado=parseFloat($("#display").val())+parseFloat(acumulado);}
+	else if(restCheck){acumulado=parseFloat(-1*(($("#display").val()))+parseFloat(acumulado));}
+	else if(multCheck){acumulado=parseFloat($("#display").val())*parseFloat(acumulado);}
+	else if(divisionCheck){acumulado=parseFloat(acumulado)/parseFloat($("#display").val());}
+	else{acumulado=parseFloat($("#display").val())}
 
 	$("#display").val(0);
 	negativeNumberCheck=true;
@@ -88,11 +88,11 @@ function multiplication(){
 
 function division(){
 
-	if(sumCheck){acumulado=parseInt($("#display").val())+parseInt(acumulado);}
-	else if(restCheck){acumulado=parseInt(-1*(($("#display").val()))+parseInt(acumulado));}
-	else if(multCheck){acumulado=parseInt($("#display").val())*parseInt(acumulado);}
-	else if(divisionCheck){acumulado=parseInt(acumulado)/parseInt($("#display").val());}
-	else{acumulado=parseInt($("#display").val())}
+	if(sumCheck){acumulado=parseFloat($("#display").val())+parseFloat(acumulado);}
+	else if(restCheck){acumulado=parseFloat(-1*(($("#display").val()))+parseFloat(acumulado));}
+	else if(multCheck){acumulado=parseFloat($("#display").val())*parseFloat(acumulado);}
+	else if(divisionCheck){acumulado=parseFloat(acumulado)/parseFloat($("#display").val());}
+	else{acumulado=parseFloat($("#display").val())}
 
 	$("#display").val(0);
 	negativeNumberCheck=true;
